@@ -1,0 +1,32 @@
+Analysis was done based on provided dataset from Kaggle for Enews express.
+Please note analysis was done based on Excel and vizualized in Tableau Public.
+
+The deneral data consists of info regarding usage of main landing page for Enews express by 100 unique users.
+100 unique users were splitted randomly in 2 different groups with equal number of users - control(50) and treatment(50), 
+where they could experience usage of old landing page and new landing page respectively.
+Landing page is presented in 3 languages - English, French and Spanish.
+Out of 50 users from control group, who used old landing page, 21 were converted into subcribers, when in the same time 33 users of 50 became subcribers in treatment group.
+Usage of preferred langualge has the same tendency for both groups - 16 users used English as preferred language in control and treatment groups, 
+when we had 17 users for French and Spanish in the same time in both groups.
+General Average time spent per preferred langualge is almost on the same level for 3 languages - from 5 to 6 minutes.
+But in terms of landing page we can see the other picture - for new landing page English is more preferrable language based on average timespent(6.6638 minutes),
+when for old version of landing page we can see that Spanish is more preferrable language based on average timespent(4.8282 minutes).
+
+Do the users spend more time on the new landing page than on the existing landing page?
+Based on the analsys and viz users prefer to spent more time on new landing page(6.223 minutes in average), rather then old landing page(4.532 minutes in average).
+
+Is the conversion rate (the proportion of users who visit the landing page and get converted) for the new page greater than the conversion rate for the old page?
+Conversion rate is higher for new landing page - 66%, then for old one - 42%.
+
+Does the converted status depend on the preferred language?
+Due to analysis convertion doesn't have clear dependency from preferred language, so we can suggest that converted status doesn't depend on the preferred language.
+
+Is the time spent on the new page the same for the different language users?
+Time spent for the different language users varies on language - English is more preferrable language(6.6638 minutes in average), when Spanish is the least preferrable(5.8353 in average).
+Time spent for landing page with French language is 6.1965 minutes in average.
+
+Taking in consideration all statements above, we can suggest the new landing page with new design and features is better than old landing page. 
+Conversion rate is higher and people spend more time on it, then on old page.
+
+All calculations are presented as vizes in Tableau Public via link:
+https://public.tableau.com/views/E-NewsExpress/GeneralInfo?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
